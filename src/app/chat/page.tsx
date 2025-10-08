@@ -31,7 +31,7 @@ export default function RAGChatBot(){
         setInput("")
     }
 
-  return <div className="max-w-4sl mx-aut p-6 relative size-full h-[calc(100vh)]">
+  return <div className="max-w-4sl mx-aut p-6 relative size-full h-[calc(100vh-4rem)]">
     <div className="flex flex-col h-full">
       <Conversation className="h-full">
         <ConversationContent>
